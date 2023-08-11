@@ -2,6 +2,7 @@ from sys import stdin
 input = stdin.readline
 
 # 아이디어 : 오름차순으로 정렬하여 항상 최소한의 수를 포함하여 그룹을 결성하게 되고, 그렇게 되면 최대한 많은 그룹이 구성된다.
+# 받을 입력값이 하나인 경우에는 아래처럼!
 N = int(input())
 data = list(map(int, input().split())) # 정렬하려면 무조건 list형태!
 data.sort()
